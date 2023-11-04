@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='relative flex flex-col h-full w-full'>
+    <div className='relative flex flex-col h-screen w-screen'>
         <video 
         autoPlay
         muted
