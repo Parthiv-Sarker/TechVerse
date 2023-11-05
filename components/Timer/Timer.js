@@ -84,7 +84,7 @@ export default function Timer() {
 			<div className=" h-screen w-screen flex justify-center items-center font-young text-3xl md:text-8xl">
 				<div className="grid grid-cols-4 md:grid-cols-4 gap-2 md:gap-8">
 					<div className="container-segment">
-						<div className="segment-title bg-gradient bg-white text-black w-60 rounded-full flex justify-center items-center text-xs md:text-3xl">Days</div>
+						<div className="segment-title bg-gradient bg-white text-black rounded-full flex justify-center items-center w-20 text-xs md:text-3xl md:w-60">Days</div>
 						<div className="segment">
 							<div
 								className="flip-card text-black"
@@ -103,7 +103,7 @@ export default function Timer() {
 						</div>
 					</div>
 					<div className="container-segment">
-						<div className="segment-title bg-gradient bg-white text-black w-60 rounded-full flex justify-center items-center text-xs md:text-3xl">Hours</div>
+						<div className="segment-title bg-gradient bg-white text-black rounded-full w-20 flex justify-center items-center text-xs md:text-3xl md:w-60">Hours</div>
 						<div className="segment">
 							<div
 								className="flip-card text-black"
@@ -122,7 +122,7 @@ export default function Timer() {
 						</div>
 					</div>
 					<div className="container-segment">
-						<div className="segment-title bg-gradient bg-white text-black w-60 rounded-full flex justify-center items-center text-xs md:text-3xl">Minutes</div>
+						<div className="segment-title bg-gradient bg-white text-black rounded-full w-20 flex justify-center items-center text-xs md:text-3xl md:w-60">Minutes</div>
 						<div className="segment">
 							<div
 								className="flip-card text-black"
@@ -141,7 +141,7 @@ export default function Timer() {
 						</div>
 					</div>
 					<div className="container-segment">
-						<div className="segment-title bg-gradient bg-white text-black w-60 rounded-full flex justify-center items-center text-xs md:text-3xl">Seconds</div>
+						<div className="segment-title bg-gradient bg-white text-black rounded-full w-20 flex justify-center items-center text-xs md:text-3xl md:w-60">Seconds</div>
 						<div className="segment">
 							<div
 								className="flip-card text-black"
