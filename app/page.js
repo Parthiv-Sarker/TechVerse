@@ -1,12 +1,15 @@
-import Hero from '@/components/main/Hero'
-import Image from 'next/image'
+import Hero from "@/components/Home/Hero";
+import Image from "next/image";
 
 export default function Home() {
-  return (
-    <main className='h-screen w-screen'>
-      <div className='flex flex-col'>
-        <Hero />
-      </div>
-    </main>
-  )
+	return (
+		<main className="h-screen w-screen">
+			<div className="flex flex-col justify-center items-center">
+				<Hero />
+				<h1 className=" absolute text-box font-young text-4xl sm:text-5xl md:text-6xl lg:text-9xl">
+					TECHVERSE 2.O
+				</h1>
+			</div>
+		</main>
+	);
 }

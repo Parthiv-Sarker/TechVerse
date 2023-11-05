@@ -1,13 +1,14 @@
 import React from 'react'
 
+
 function Hero() {
   return (
-    <div className='relative flex flex-col h-screen w-screen'>
+    <div className='flex flex-col w-screen h-screen'>
         <video 
         autoPlay
         muted
         loop
-        className='rotate-180 absolute top-[-150px] left-0 z-[1] w-full h-full object-cover'
+        className='rotate-180 object-cover w-screen h-screen'
         >
             <source src='/blackhole.webm' type='video/webm'></source>
         </video>
