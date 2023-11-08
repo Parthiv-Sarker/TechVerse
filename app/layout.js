@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import StarsCanvas from "@/components/Home/StarBackground";
+import StarsCanvas from "@/components/HeroSection/StarBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
